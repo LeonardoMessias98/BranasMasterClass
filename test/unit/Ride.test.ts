@@ -1,4 +1,4 @@
-import Ride from "../src/Ride";
+import Ride from "../../src/domain/Ride";
 
 test("Deve fazer o cálculo do preço de uma corrida durante o dia", function () {
   const ride = new Ride();

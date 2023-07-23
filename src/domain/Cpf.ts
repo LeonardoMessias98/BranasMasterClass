@@ -7,7 +7,7 @@ export default class Cpf {
     this.value = value;
   }
 
-  validate(cpf: string) {
+  private validate(cpf: string) {
     cpf = this.clean(cpf);
     if (this.isValidLength(cpf)) return false;
     if (this.hasAllDigitEquals(cpf)) return false;
